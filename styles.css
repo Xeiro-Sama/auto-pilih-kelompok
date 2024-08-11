@@ -1,0 +1,117 @@
+/* Reset default styling for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font default */
+    background: #f5f5f5; /* Warna latar belakang terang */
+    color: #333; /* Warna teks gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi layar penuh */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #fff; /* Warna latar belakang putih */
+    padding: 20px;
+    border: 1px solid #ddd; /* Border abu-abu terang */
+    border-radius: 4px; /* Sudut border yang sedikit membulat */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk efek kedalaman */
+    text-align: center;
+    overflow: hidden; /* Mencegah scroll bar muncul di luar container */
+    position: relative; /* Untuk positioning child yang absolut */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input {
+    margin-right: 10px;
+    width: 60px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc; /* Border abu-abu terang */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Warna latar belakang tombol biru */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat hover */
+}
+
+#result {
+    margin-top: 20px;
+    max-height: 500px; /* Mengatur tinggi maksimal untuk area hasil */
+    overflow-y: auto; /* Mengaktifkan scroll vertikal jika konten melebihi tinggi maksimal */
+}
+
+.group {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Border abu-abu terang */
+    border-radius: 4px;
+    background: #f9f9f9; /* Warna latar belakang grup putih abu-abu */
+}
+
+.group h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.group ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* Garis bawah item grup */
+}
+
+.group ul li:last-child {
+    border-bottom: none; /* Menghapus garis bawah pada item terakhir */
+}
+
+#backButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Warna latar belakang tombol kembali biru */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol kembali saat hover */
+}
