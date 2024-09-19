@@ -1,6 +1,6 @@
 function generateGroups() {
     const groupCount = parseInt(document.getElementById('groupCount').value);
-    const totalStudents = 36;
+    const totalStudents = 35;
     const students = Array.from({ length: totalStudents }, (_, i) => i + 1);
     
     // Shuffle the students array
